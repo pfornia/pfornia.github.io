@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -83,7 +83,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -232,6 +231,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -243,18 +243,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -312,12 +300,12 @@ $(document).ready(function () {
 </div>
 
 
-<div id="in-progress-ms-computer-science" class="section level3">
-<h3>In Progress: MS Computer Science</h3>
+<div id="ms-computer-science" class="section level3">
+<h3>MS Computer Science</h3>
 <ul>
 <li>Johns Hopkins University</li>
 <li>Whiting School of Engineering</li>
-<li>Anticipated Aug 2020</li>
+<li>Completed Aug 2020</li>
 </ul>
 </div>
 <div id="bs-applied-mathematics" class="section level3">
@@ -325,7 +313,7 @@ $(document).ready(function () {
 <ul>
 <li>University of Colorado – Boulder</li>
 <li>College of Engineering and Applied Sciences</li>
-<li>Graduated May 2012</li>
+<li>Completed May 2012</li>
 </ul>
 </div>
 <div id="ba-economics-magna-cum-laude" class="section level3">
@@ -333,14 +321,14 @@ $(document).ready(function () {
 <ul>
 <li>University of Colorado – Boulder</li>
 <li>College of Arts and Sciences</li>
-<li>Graduated May 2012</li>
+<li>Completed May 2012</li>
 </ul>
 </div>
 <div id="aws-certified-cloud-practitioner" class="section level3">
 <h3>AWS Certified Cloud Practitioner</h3>
 <ul>
 <li><a href="https://aws.amazon.com/certification/certified-cloud-practitioner/">Description</a></li>
-<li><a href="https://www.certmetrics.com/amazon/electronic_certificate.aspx?cert=980ED3E2528110335327E7DC2A973498ODEFA9F8B18C16A30B5F374FEAAE06363">Credential</a></li>
+<li><a href="https://www.youracclaim.com/badges/32350702-5891-436d-a581-f5428aab3ad5/public_url">Credential</a></li>
 </ul>
 </div>
 <div id="data-science-specialization" class="section level3">
@@ -377,6 +365,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

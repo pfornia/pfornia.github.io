@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -83,7 +83,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -232,6 +231,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -243,18 +243,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -313,12 +301,16 @@ $(document).ready(function () {
 
 
 <p>Paul has over 8 years of professional experience in data science, machine learning, programming, and consulting.</p>
+<div id="tpc-energy-fund-director-of-data-science-may-2020---present" class="section level2">
+<h2>TPC Energy Fund | Director of Data Science (May 2020 - Present)</h2>
+<p>Paul currently serves as the Director of Data Science for TPC Energy Fund, a small trader participating in the wholesale power market. He uses techniques from Machine Learning to produce highly accurate forcasts of risk and return, and ultimately find new opportunities for reliable ROI. He brings his years of data science experience to help the organization avoid common pitfalls in forecasting, such as “overfitting” to historical data.</p>
+<p>Paul also brings his math, stats, and programming expertise to help customize algorithms to fit the nuances of the power market which cannot be easily solved by out-of-the box, or open source solutions alone.</p>
+</div>
 <div id="datarobot-customer-facing-data-scientist-aug-2019---apr-2020" class="section level2">
 <h2>DataRobot | Customer Facing Data Scientist (Aug 2019 - Apr 2020)</h2>
-<p>Paul is a Customer Facing Data Scientist (CFDS), focusing primarily on the <a href="https://blog.datarobot.com/ai-for-good-with-datarobot-saving-the-world-one-use-case-at-a-time">AI for Good</a> program, providing pro bono software and execution services to organizations with a strong social impact.</p>
-<p>As one of the first full-time members of the AI for Good team, Paul was instrumental in shaping the program in its early days, including contributing to strategic direction, and vetting dozens of applications for the first cohort of beneficiaries. He also helps represent the program internally to new hires, and externally in <a href="https://wamu.org/story/20/02/24/how-clean-is-the-anacostia-river-ask-a-robot/">media</a> <a href="https://www.wateronline.com/doc/artificial-intelligence-predicts-and-saves-your-water-future-0001">interviews</a>.</p>
-<p>He serves as primary CFDS for several high-profile, non-profit partners, including <a href="https://www.kiva.org/">Kiva</a>, <a href="https://www.donorschoose.org/">DonorsChoose</a>, and <a href="https://www.anacostiariverkeeper.org/">Anacostia Riverkeeper</a>.</p>
-<p>Outside of th AI for Good program, Paul also serves as primary and secondary CFDS for some traditional paid customers. He also supports the sales staff by demoing the DataRobot software platform to executives, and representing the company at trade shows.</p>
+<p>Paul was a Customer Facing Data Scientist (CFDS), focusing primarily on the <a href="https://blog.datarobot.com/ai-for-good-with-datarobot-saving-the-world-one-use-case-at-a-time">AI for Good</a> program, providing pro bono software and execution services to organizations with a strong social impact.</p>
+<p>As one of the first full-time members of the AI for Good team, Paul was instrumental in shaping the program in its early days, including contributing to strategic direction, and vetting dozens of applications for the first cohort of beneficiaries. He also helped represent the program internally to new hires, and externally in <a href="https://wamu.org/story/20/02/24/how-clean-is-the-anacostia-river-ask-a-robot/">media</a> <a href="https://www.wateronline.com/doc/artificial-intelligence-predicts-and-saves-your-water-future-0001">interviews</a>.</p>
+<p>He served as primary CFDS for several high-profile, non-profit partners, including <a href="https://www.kiva.org/">Kiva</a>, <a href="https://www.donorschoose.org/">DonorsChoose</a>, and <a href="https://www.anacostiariverkeeper.org/">Anacostia Riverkeeper</a>, as well as for some traditional paying customers.</p>
 </div>
 <div id="deloitte-consulting-data-scientistsenior-consultant-aug-2014---aug-2019" class="section level2">
 <h2>Deloitte Consulting | Data Scientist/Senior Consultant (Aug 2014 - Aug 2019)</h2>
@@ -400,6 +392,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
